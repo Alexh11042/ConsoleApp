@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Alex Reyes\\.nuget\\packages\\",
-        "outputPath": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\Azure devops\\repoDevs\\ConsoleApp\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
